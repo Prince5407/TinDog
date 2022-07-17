@@ -1,0 +1,208 @@
+#title {
+  background-color: #ff4c68;
+  color: #ffff;
+  z-index: 1;
+
+}
+
+/* feature */
+#features{
+padding-top: 10%;
+padding: 7% 15%;
+position: relative;
+z-index: 1;
+   background-color: #FFf;
+/* padding-right: 15%; */
+}
+.features-content{
+font-family: "Montserrat-bold";
+font-size:1.5rem;
+font-weight: bold;
+text-align: center;
+
+}
+.feature-box{
+
+  text-align: center;
+
+}
+/* image */
+.rotated{
+transform:rotate(20deg);
+width:15%;
+position: absolute;
+top:45%;
+right:20%;
+}
+
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+
+}
+.icon:hover{
+
+  color:#ff4c68;
+}
+
+p{
+  color: #8F8F8F;
+}
+
+
+body{
+font-family: "Montserrat";
+
+}
+.row{
+  padding: 0;
+}
+
+.head1 {
+  font-family: "Montserrat-black" solid;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 0;
+  font-weight: bold;
+
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+
+
+}
+
+
+h5 {
+  margin-left: 80%;
+  margin-top: 0;
+}
+/* navigation bar */
+.navbar{
+    padding:0 0 4.5rem;
+
+}
+.nav-item{
+margin-right: 100%;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: " Montserrat-light";
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+
+
+
+}
+ /* downloaded button */
+.download-button{
+margin:5% 3% 5% 0;
+
+}
+
+
+/* testimonials-fun */
+#testimonials{
+
+text-align: center;
+  background-color: #ef8172;
+color: #ffff;
+}
+h2{
+font-family: "Montserrat-Bold";
+font-size:3rem;
+font-weight: bold;
+
+}
+
+.testimonial-image{
+width:10%;
+border-radius:100%;
+margin:10%;
+text-align: center;
+margin-bottom: 0;
+margin-top: 0;
+padding-right:2%;
+padding-left: 0;
+margin-right:0;
+}
+#press{
+  text-align: center;
+    background-color: #ef8172;
+padding-bottom: 3%;
+
+}
+
+
+.press-logo{
+width: 15%;
+margin:20px 20px 15px;
+
+}
+
+.carousel-item{
+  padding :7% 15%;
+}
+
+.to-text-centre{
+  text-align: center;
+  padding:3% 2%;
+
+}
+.to-make-all-box-of-same-height{
+
+  margin-bottom: 57px;
+}
+#pricing{
+padding:7% 15%;
+text-align: center;
+}
+/*
+using media for small size screen */
+@media(max-width:1103px)  {
+
+#title{
+  text-align: center;
+}
+
+.rotated{
+position: static;
+transform: rotate(0);
+width: 40%;
+
+}
+
+}
+
+/* last-wala part */
+#cta{
+background-color: #ff4c68;
+text-align: center;
+padding:5%  0 0.5%;
+}
+.heading-last{
+  font-family: "Montserrat-bold";
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #fff;
+  line-height: 1.5;
+
+}
+#footer{
+text-align: center;
+
+}
+.foot{
+  text-align: center;
+  padding: 1%;
+}
+.padding-it{
+  padding:0.25%;
+}
